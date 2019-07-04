@@ -1,10 +1,28 @@
 {
     "cSpell.words": [
+        "Bootloading",
+        "Ezsp",
+        "MFGLIB",
         "SLWSTK",
         "Toolchain",
         "UART",
         "Zigbee",
+        "bsend",
+        "changekey",
+        "clus",
+        "debugprint",
         "eabi",
-        "emberznet"
+        "emberznet",
+        "interpan",
+        "multicast",
+        "offeffect",
+        "onrecall",
+        "ontimedoff",
+        "preconfigured",
+        "rssi",
+        "timesync",
+        "uint",
+        "unicast",
+        "xpan"
     ]
 }
