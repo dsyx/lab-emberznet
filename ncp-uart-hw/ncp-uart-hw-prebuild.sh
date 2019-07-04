@@ -1,0 +1,1 @@
+"$4/developer/adapter_packs/python/bin/python3"  "$(dirname "$0")/ncp-uart-hw-prebuild.py"

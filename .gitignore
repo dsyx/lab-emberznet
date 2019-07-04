@@ -1,5 +1,8 @@
-
+# workspace
 .metadata/
 outgoing/
 
+# build
 Z3LightSoc/GNU ARM v7.2.1 - Default/
+ncp-uart-hw/GNU ARM v7.2.1 - Default/
+Z3GatewayHost/build/

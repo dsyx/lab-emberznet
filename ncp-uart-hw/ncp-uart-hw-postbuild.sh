@@ -1,0 +1,1 @@
+"$4/developer/adapter_packs/python/bin/python3"  "$(dirname "$0")/ncp-uart-hw-postbuild.py" "$1" "$2" "" "$4/support/common/wine/usr/bin/wine cmd /C " "$3"

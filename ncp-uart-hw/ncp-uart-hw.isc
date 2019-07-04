@@ -1,0 +1,260 @@
+#ISD afv6
+# Simplicity Studio version: 5.8.5.201906251613-1497
+
+# Application configuration
+stackId: com.silabs.sdk.stack.super
+stackRoot: /home/shan/app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6
+appId: ncp
+frameworkRoot: protocol/zigbee/app/ncp
+architecture: efr32~family[M]~series[1]~device_configuration[2]~performance[P]~radio[432]~flash[1024K]~temp[G]~package[L]~pins[125]~!module+BRD4161A+gcc
+exactArchitectureToolchain: com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904
+deviceName: ncp-uart-hw
+sourceSampleAppId: ncp-uart-hw
+generationDirectory: PATH(ISC_RELATIVE):.
+
+# Devices
+
+# Plugin configuration
+appPlugin: accelerometer-led=false
+appPlugin: adc=true
+appPlugin: antenna=false
+appPlugin: antenna-cli=false
+appPlugin: antenna-stub=true
+appPlugin: battery-monitor=false
+appPlugin: binding-table-library=true
+appPlugin: binding-table-stub-library=false
+appPlugin: bulb-pwm-driver=false
+appPlugin: button=false
+appPlugin: button-interface=false
+appPlugin: button-stub=true
+appPlugin: buzzer=false
+appPlugin: buzzer-stub=true
+appPlugin: cbke-163k1-library=false
+appPlugin: cbke-163k1-stub-library=true
+appPlugin: cbke-283k1-library=false
+appPlugin: cbke-283k1-stub-library=true
+appPlugin: cbke-library-core=false
+appPlugin: cbke-library-dsa-sign=false
+appPlugin: cbke-library-dsa-sign-stub=true
+appPlugin: cbke-library-dsa-verify=false
+appPlugin: cbke-library-dsa-verify-283k1=false
+appPlugin: cbke-library-dsa-verify-283k1-stub=true
+appPlugin: cbke-library-dsa-verify-stub=true
+appPlugin: cbke-stub-library=true
+appPlugin: ccm-encryption=true
+appPlugin: cjson=false
+appPlugin: coexistence=false
+appPlugin: coexistence-cli=false
+appPlugin: coexistence-stub=true
+appPlugin: concentrator-support-library=true
+appPlugin: concentrator-support-stub-library=false
+appPlugin: debug-basic-library=true
+appPlugin: debug-basic-stub-library=false
+appPlugin: debug-channel=true
+appPlugin: debug-channel-stub=false
+appPlugin: debug-extended-library=true
+appPlugin: debug-extended-stub-library=false
+appPlugin: diagnostic=true
+appPlugin: diagnostic-stub=false
+appPlugin: dmp-demo-ui=false
+appPlugin: dotdot-mfg-certs=false
+appPlugin: ecc-library-163k1=false
+appPlugin: ecc-library-283k1=false
+appPlugin: eeprom=false
+appPlugin: eeprom-powerdown=false
+appPlugin: ember-minimal-printf=true
+appPlugin: end-device-bind-library=true
+appPlugin: end-device-bind-stub-library=false
+appPlugin: ext-device=true
+appPlugin: ezsp-binding=true
+appPlugin: ezsp-cbke=true
+appPlugin: ezsp-gp=true
+appPlugin: ezsp-mfglib=true
+appPlugin: ezsp-security=true
+appPlugin: ezsp-zigbee-pro=true
+appPlugin: ezsp-zll=true
+appPlugin: fem-control=false
+appPlugin: flash-data=false
+appPlugin: generic-interrupt-control=false
+appPlugin: glib=false
+appPlugin: gp-library=true
+appPlugin: gp-stub-library=false
+appPlugin: gpio-sensor=false
+appPlugin: hal-library=true
+appPlugin: heartbeat=false
+appPlugin: humidity-si7021-stub=false
+appPlugin: i2c-driver=false
+appPlugin: i2c-driver-stub=false
+appPlugin: illuminance-si1141-stub=false
+appPlugin: install-code-library=true
+appPlugin: install-code-library-stub=false
+appPlugin: key-matrix=false
+appPlugin: led=true
+appPlugin: led-blink=false
+appPlugin: led-stub=false
+appPlugin: libcoap=false
+appPlugin: linked-list=false
+appPlugin: mbedtls=true
+appPlugin: mfglib-library=true
+appPlugin: mfglib-stub-library=false
+appPlugin: microphone-codec-msadpcm=false
+appPlugin: microphone-imaadpcm=false
+appPlugin: mpsi=false
+appPlugin: mpsi-ipc=false
+appPlugin: mpsi-storage=false
+appPlugin: multi-network-library=false
+appPlugin: multi-network-stub-library=true
+appPlugin: ncp-spi=false
+appPlugin: ncp-uart=true
+appPlugin: ncp-usb=false
+appPlugin: nvm3=false
+appPlugin: occupancy-pyd1698=false
+appPlugin: occupancy-pyd1698-stub=false
+appPlugin: packet-validate-library=true
+appPlugin: packet-validate-stub-library=false
+appPlugin: paho.mqtt.c=false
+appPlugin: power-meter-cs5463=false
+appPlugin: psstore=false
+appPlugin: rail-library=true
+appPlugin: rail-library-mp=false
+appPlugin: sb1-gesture-sensor=false
+appPlugin: secure-ezsp=false
+appPlugin: secure-ezsp-stub=true
+appPlugin: security-library-core=true
+appPlugin: security-library-link-keys=true
+appPlugin: security-library-link-keys-stub=false
+appPlugin: serial=true
+appPlugin: sim-eeprom1=false
+appPlugin: sim-eeprom2=true
+appPlugin: sim-eeprom2-1to2-upgrade=false
+appPlugin: sim-eeprom2-1to2-upgrade-stub=true
+appPlugin: sim-eeprom2-to-nvm3-upgrade=false
+appPlugin: sim-eeprom2-to-nvm3-upgrade-stub=false
+appPlugin: slot-manager=false
+appPlugin: stack-protection-iar=false
+appPlugin: stm32f103ret-library=false
+appPlugin: strong-random=true
+appPlugin: stub-security-library=false
+appPlugin: tamper-switch=false
+appPlugin: temperature-si7053-stub=false
+appPlugin: transport-mqtt=false
+appPlugin: unix-library=false
+appPlugin: xncp=false
+appPlugin: xncp-stub=true
+appPlugin: xncp-test-harness=false
+appPlugin: zigbee-pro-leaf-library=false
+appPlugin: zigbee-pro-stack=true
+appPlugin: zigbee-pro-stack-alt-mac=false
+appPlugin: zigbee-r22-support-library=false
+appPlugin: zigbee-r22-support-stub-library=true
+appPlugin: zll-library=true
+appPlugin: zll-stub-library=false
+
+# Setup configurations
+{setupId:additionalFiles
+}
+{setupId:boardHeader
+allowMissingHeader:false
+useHeaderInPlace:false
+EFR32MG1P132F256GM48=BOARD,efr32/brd4153a,,
+EFR32MG1P232F256GM48=BOARD,efr32/brd4151a,,
+EFR32MG1P233F256GM48=BOARD,efr32/brd4150a,,
+em355=BOARD,em35x/dev0680uart_21gpio,,
+em3555=BOARD,em35x/dev0680uart_21gpio,,
+em356=BOARD,em35x/dev0680uart_20gpio,,
+em357=BOARD,em35x/dev0680uart,,
+em3581=BOARD,em35x/dev0680uart,,
+em3582=BOARD,em35x/dev0680uart,,
+em3585=BOARD,em35x/dev0680uart,,
+em3586=BOARD,em35x/dev0680uart,,
+em3587=BOARD,em35x/dev0680uart,,
+em3588=BOARD,em35x/dev0680uart,,
+em3591=BOARD,em35x/ncp_uart_sc1,,
+em3592=BOARD,em35x/ncp_uart_sc1,,
+em3595=BOARD,em35x/ncp_uart_sc1,,
+em3596=BOARD,em35x/ncp_uart_sc1,,
+em3597=BOARD,em35x/ncp_uart_sc1,,
+em3598=BOARD,em35x/ncp_uart_sc1,,
+efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[133]~flash[256K]~temp[G]~package[M]~pins[48]=USE_HARDWARE_CONFIGURATOR,,,
+efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[133]~flash[256K]~temp[G]~package[M]~pins[48]~!module=USE_HARDWARE_CONFIGURATOR,,,
+efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[133]~flash[256K]~temp[G]~package[M]~pins[48]~!module+iar=USE_HARDWARE_CONFIGURATOR,,,
+efr32~family[M]~series[1]~device_configuration[2]~performance[P]~radio[332]~flash[1024K]~temp[G]~package[L]~pins[125]~!module+BRD4162A+iar=USE_HARDWARE_CONFIGURATOR,,,
+efr32~family[M]~series[1]~device_configuration[2]~!module=USE_HARDWARE_CONFIGURATOR,,,
+efr32~family[M]~series[1]~device_configuration[2]~!module+iar=USE_HARDWARE_CONFIGURATOR,,,
+efr32~family[M]~series[1]~device_configuration[2]~performance[P]~radio[432]~flash[1024K]~temp[G]~package[L]~pins[125]~!module+BRD4161A+gcc=USE_HARDWARE_CONFIGURATOR,,,
+}
+{setupId:bookkeeping
+}
+{setupId:bootloader
+}
+{setupId:callbackConfiguration
+emberAfEzspClearBindingTableCommandCallback:true
+emberAfEzspSetBindingCommandCallback:true
+emberAfEzspGetBindingCommandCallback:true
+emberAfEzspDeleteBindingCommandCallback:true
+emberAfEzspBindingIsActiveCommandCallback:true
+emberAfEzspGetBindingRemoteNodeIdCommandCallback:true
+emberAfEzspSetBindingRemoteNodeIdCommandCallback:true
+emberAfEzspRemoteSetBindingHandlerCommandCallback:true
+emberAfEzspRemoteDeleteBindingHandlerCommandCallback:true
+}
+{setupId:commandLineConfiguration
+on
+}
+{setupId:eventConfiguration
+}
+{setupId:ezsp
+}
+{setupId:genConfig
+}
+{setupId:halOptions
+}
+{setupId:hwConfig
+lastArchitectureId=efr32~family[M]~series[1]~device_configuration[2]~performance[P]~radio[332]~flash[1024K]~temp[G]~package[L]~pins[125]~!module+BRD4162A+iar
+featureLevel=1
+active=true
+lastHwConfFileUsed=PATH(ISC_RELATIVE):brd4161a_efr32mg12p432f1024gl125.hwconf
+}
+{setupId:information
+\{key:description
+NCP UART Application
+
+This network coprocessor (NCP) application supports communication with a host application over a UART interface with hardware flow control. This NCP application can be built as configured, or optionally can be augmented with customizations for target hardware, initialization, main loop processing, event definition/handling, and messaging with the host.
+
+As configured, this NCP UART application is the basis for building the corresponding binary ncp-uart images delivered with the Silicon Labs zigbee stack.
+
+Refer to the Silicon Labs zigbee documentation for more information about NCP customization.
+\}
+}
+{setupId:macros
+}
+{setupId:mpsi
+- mappings
+- custom messages
+}
+{setupId:pluginService
+}
+{setupId:quizz
+}
+{setupId:serial
+useHwConfigurator=true
+}
+{setupId:template
+--version:2
+--backupValues:
+simeepromSize=36864
+psstoreSize=0
+longTokenSize=0
+}
+{setupId:token
+}
+
+# Plugin options
+pluginOption(simulation): EMBER_PACKET_BUFFER_COUNT,64
+pluginOption(simulation): EMBER_AF_PLUGIN_ZIGBEE_PRO_STACK_CHILD_TABLE_SIZE,32
+pluginOption(simulation): EMBER_AF_PLUGIN_SIM_EEPROM2_PASSWORD,!spoon
+pluginOption(simulation): EMBER_MAX_END_DEVICE_CHILDREN,32
+pluginOption(simulation): EMBER_BINDING_TABLE_SIZE,32
+pluginOption(simulation): EMBER_KEY_TABLE_SIZE,12
+pluginOption(efr32): EMBER_AF_PLUGIN_HAL_CONFIG_VUART_ENABLE,1
+pluginOption(efr32~device_configuration[2]): EMBER_AF_PLUGIN_HAL_CONFIG_BSP_UART_NCP_PORT,HAL_SERIAL_PORT_USART0

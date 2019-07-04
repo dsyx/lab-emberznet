@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore">
+  <mode name="DefaultMode">
+    <property object="BUTTON" propertyId="ABPeripheral.included" value="false" />
+    <property object="LED" propertyId="ABPeripheral.included" value="true" />
+    <property object="LEUART0" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="LEUART1" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="LEUART2" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="PTI" propertyId="ABPeripheral.included" value="true" />
+    <property object="SERIAL" propertyId="ABPeripheral.included" value="true"/>
+    <property object="UARTNCP" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART0" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="USART1" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="USART2" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="USART3" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="USART4" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="USART5" propertyId="USART.HAL_USART_FLOW_CONTROL.ENUM" value="HAL_USART_FLOW_CONTROL_HWUART"/>
+    <property object="VCOM" propertyId="ABPeripheral.included" value="true" />
+    <property object="VUART" propertyId="ABPeripheral.included" value="true"/>
+    <property object="VUART" propertyId="VUART.HAL_VUART_TYPE.ENUM" value="HAL_VUART_TYPE_SWO"/>
+  </mode>
+</device:XMLDevice>
