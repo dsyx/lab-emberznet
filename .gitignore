@@ -6,3 +6,8 @@ outgoing/
 Z3LightSoc/GNU ARM v7.2.1 - Default/
 ncp-uart-hw/GNU ARM v7.2.1 - Default/
 Z3GatewayHost/build/
+
+# imported project report
+Z3LightSoc/imported_project_report.html
+ncp-uart-hw/imported_project_report.html
+Z3GatewayHost/imported_project_report.html
