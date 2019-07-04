@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="com.silabs.module.additional.pdm.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" propertyScope="project" contentRoot=".">
+  <folder name="emlib" partCompatibility=".*efr32.*">
+    <file name="system_efr32mg12p.c" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG12P/Source/system_efr32mg12p.c"/>
+  </folder>
+  <folder name="hal-config">
+    <file name="hal-config.h" uri="studio:/project/hal-config/hal-config.h"/>
+  </folder>
+  <folder name="external-generated-files">
+    <file name="bootloader-interface.c" uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32/bootloader-interface.c"/>
+    <file name="bootloader-interface-standalone.c" uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32/bootloader-interface-standalone.c"/>
+    <file name="btl_interface.c" uri="studio:/sdk/platform/bootloader/api/btl_interface.c"/>
+  </folder>
+  <file name="ncp-bookkeeping.h" uri="studio:/project/ncp-bookkeeping.h"/>
+  <file name="ncp-bookkeeping.c" uri="studio:/project/ncp-bookkeeping.c"/>
+  <file name="ncp-events.c" uri="studio:/project/ncp-events.c"/>
+  <file name="ezsp-command-handler.c" uri="studio:/project/ezsp-command-handler.c"/>
+  <file name="brd4161a_efr32mg12p432f1024gl125.hwconf" uri="studio:/project/brd4161a_efr32mg12p432f1024gl125.hwconf"/>
+  <file name="ncp-token.h" uri="studio:/project/ncp-token.h"/>
+  <file name="ncp-mfg-token.h" uri="studio:/project/ncp-mfg-token.h"/>
+  <file name="mbedtls-config-generated.h" uri="studio:/project/mbedtls-config-generated.h"/>
+  <file name="ncp-callbacks.h" uri="studio:/project/ncp-callbacks.h"/>
+  <file name="ncp-callback-stubs.c" uri="studio:/project/ncp-callback-stubs.c"/>
+  <file name="ncp-callbacks.c" uri="studio:/project/ncp-callbacks.c"/>
+  <file name="ncp-configuration.h" uri="studio:/project/ncp-configuration.h"/>
+  <file name="ncp-uart-hw-prebuild.py" uri="studio:/project/ncp-uart-hw-prebuild.py"/>
+  <file name="ncp-uart-hw-postbuild.py" uri="studio:/project/ncp-uart-hw-postbuild.py"/>
+  <file name="ncp-uart-hw.mak" uri="studio:/project/ncp-uart-hw.mak"/>
+  <file name="ncp-uart-hw-postbuild.bat" uri="studio:/project/ncp-uart-hw-postbuild.bat"/>
+  <file name="ncp-uart-hw-prebuild.bat" uri="studio:/project/ncp-uart-hw-prebuild.bat"/>
+  <includePath uri="studio:/project/"/>
+  <includePath uri="studio:/project/hal-config"/>
+  <includePath uri="studio:/project/external-generated-files"/>
+  <includePath uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32"/>
+  <includePath uri="studio:/sdk/platform/bootloader/api"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/zigbee/"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/zigbee/stack"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/zigbee/app/util"/>
+  <includePath partCompatibility=".*efr32.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs-Restricted/EFR32MG12P/Include"/>
+  <includePath partCompatibility=".*efr32.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG12P/Include"/>
+  <includePath partCompatibility=".*ember.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs/efr32mg12p/Include"/>
+  <includePath uri="studio:/sdk/platform/bootloader"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/chip/efr32/efr32xg1x"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/common"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/coexistence/common"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/coexistence/hal/efr32"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ble"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ieee802154"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/zwave"/>
+  <includePath uri="studio:/sdk/util/plugin/plugin-common/mbedtls"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/include"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/include/mbedtls"/>
+  <includePath uri="studio:/sdk/util/third_party/mbedtls/sl_crypto/include"/>
+  <includePath uri="studio:/project/./hal-config"/>
+  <macroDefinition languageCompatibility="c asm" name="STA_GECKO_INFO_PAGE_BTL" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="CONFIGURATION_HEADER" value="&quot;ncp-configuration.h&quot;"/>
+  <macroDefinition partCompatibility=".*ember.*" languageCompatibility="c asm" name="CORTEXM3_EFR32MG12P432F1024GL125" value="1"/>
+  <macroDefinition partCompatibility=".*ember.*" languageCompatibility="c asm" name="CORTEXM3_EFR32MG12P432F1024GL125_MICRO" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="PLATFORM_HEADER" value="&quot;platform/base/hal/micro/cortexm3/compiler/gcc.h&quot;"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32MG12P" value="1"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32MG12P432F1024GL125" value="1"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32_SERIES1_CONFIG2_MICRO" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="LOCKBITS_IN_MAINFLASH_SIZE" value="0"/>
+  <macroDefinition languageCompatibility="c asm" name="PSSTORE_SIZE" value="0"/>
+  <macroDefinition languageCompatibility="c asm" name="LONGTOKEN_SIZE" value="0"/>
+  <macroDefinition name="HAL_CONFIG" value="1"/>
+  <macroDefinition name="EMBER_AF_USE_HWCONF" value=""/>
+  <macroDefinition name="EMBER_AF_NCP" value=""/>
+  <macroDefinition name="EMBER_STACK_ZIGBEE" value=""/>
+  <macroDefinition name="USE_SIMEE2" value=""/>
+  <macroDefinition name="EZSP_UART" value=""/>
+  <macroDefinition name="NO_USB" value=""/>
+  <macroDefinition name="MBEDTLS_CONFIG_FILE" value="&quot;mbedtls-config-generated.h&quot;"/>
+  <macroDefinition name="EMLIB_USER_CONFIG" value=""/>
+  <macroDefinition name="EMBER_SERIAL1_MODE" value="EMBER_SERIAL_BUFFER"/>
+  <macroDefinition name="EMBER_SERIAL1_TX_QUEUE_SIZE" value="2"/>
+  <macroDefinition name="EMBER_SERIAL1_RX_QUEUE_SIZE" value="64"/>
+  <macroDefinition name="EMBER_SERIAL1_RTSCTS" value=""/>
+  <macroDefinition name="EMBER_SERIAL0_MODE" value="EMBER_SERIAL_FIFO"/>
+  <macroDefinition name="EMBER_SERIAL0_TX_QUEUE_SIZE" value="64"/>
+  <macroDefinition name="EMBER_SERIAL0_RX_QUEUE_SIZE" value="64"/>
+  <macroDefinition name="APPLICATION_TOKEN_HEADER" value="&quot;ncp-token.h&quot;"/>
+  <macroDefinition name="APPLICATION_MFG_TOKEN_HEADER" value="&quot;ncp-mfg-token.h&quot;"/>
+  <macroDefinition name="MBEDTLS_DEVICE_ACCELERATION_CONFIG_FILE" value="&quot;configs/config-device-acceleration.h&quot;"/>
+  <macroDefinition name="MBEDTLS_DEVICE_ACCELERATION_CONFIG_APP_FILE" value="&quot;config-device-acceleration-app.h&quot;"/>
+  <macroDefinition name="PHY_RAIL" value="1"/>
+  <toolOption toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.configSymbolDefs.v6.2.0" value="STA_GECKO_INFO_PAGE_BTL=1  FLASH_SIZE=1048576 RAM_SIZE=262144 SIMEEPROM_SIZE=36864 LOCKBITS_IN_MAINFLASH_SIZE=0 EMBER_MALLOC_HEAP_SIZE=0 HEADER_SIZE=256 PSSTORE_SIZE=0 LONGTOKEN_SIZE=0"/>
+  <toolOption partCompatibility=".*efr32.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="${StudioSdkPath}/platform/base/hal/micro/cortexm3/efm32/iar-cfg.icf"/>
+  <toolOption partCompatibility=".*efr32.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.programEntry.v5.4.0" value="__iar_program_start"/>
+  <toolOption partCompatibility=".*ember.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="C:/SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/cortexm3/em35x/efr32mg12p432f1024gl125/iar-cfg.icf"/>
+  <toolOption toolId="iar.arm.toolchain.compiler.v5.4.1" optionId="iar.arm.toolchain.compiler.option.additionalUserOptions" value="--no_path_in_file_macros --separate_cluster_for_initialized_variables "/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${StudioSdkPath}/platform/base/hal/micro/cortexm3/efm32/gcc-cfg.ld"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="gnu.c.link.option.other">
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=FLASH_SIZE=1048576"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=RAM_SIZE=262144"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=FLASH_PAGE_SIZE=2048"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=SIMEEPROM_SIZE=36864"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=PSSTORE_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=LONGTOKEN_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=HEADER_SIZE=256"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=LOCKBITS_IN_MAINFLASH_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=STA_GECKO_INFO_PAGE_BTL=1"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=EMBER_MALLOC_HEAP_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.*" value=""/>
+  </toolOption>
+  <prebuildStep> cmd //c 'C:\Users\shan\WORKSP~1\LAB-EM~1\NCP-UA~1/ncp-uart-hw-prebuild.bat' '${BuildArtifactFileBaseName}' '${ProjDirPath}' '${TOOLKIT_DIR}' 'C:\SiliconLabs\SimplicityStudio\v4'</prebuildStep>
+  <postbuildStep> cmd //c 'C:\Users\shan\WORKSP~1\LAB-EM~1\NCP-UA~1/ncp-uart-hw-postbuild.bat' '${BuildArtifactFileBaseName}' '${ProjDirPath}' '${TOOLKIT_DIR}' 'C:\SiliconLabs\SimplicityStudio\v4'</postbuildStep>
+</project>

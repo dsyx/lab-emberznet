@@ -13,6 +13,4 @@ set "studioInstallationDir=%param[4]:"=%"
 set "projDir=%~dp0"
 set "projDir=%projDir:"=%"
 
-set "projDir=%projDir:\=/%"
-set "projDir=%projDir:Z:=%"
-start /unix "%studioInstallationDir%/developer/adapter_packs/python/bin/python3"  "%projDir%/ncp-uart-hw-prebuild.py"
+"%studioInstallationDir%/developer\adapter_packs\python\Scripts\python.exe"  "%projDir%/ncp-uart-hw-prebuild.py"

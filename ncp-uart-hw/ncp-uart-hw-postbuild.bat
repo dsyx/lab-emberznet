@@ -13,6 +13,4 @@ set "studioInstallationDir=%param[4]:"=%"
 set "projDir=%~dp0"
 set "projDir=%projDir:"=%"
 
-set "projDir=%projDir:\=/%"
-set "projDir=%projDir:Z:=%"
-start /unix "%studioInstallationDir%/developer/adapter_packs/python/bin/python3"  "%projDir%/ncp-uart-hw-postbuild.py" %param[1]%  %param[2]%  "wine start /unix " "wine cmd /C" %param[3]% 
+"%studioInstallationDir%/developer\adapter_packs\python\Scripts\python.exe"  "%projDir%/ncp-uart-hw-postbuild.py" %param[1]%  %param[2]%  "" "" %param[3]% 

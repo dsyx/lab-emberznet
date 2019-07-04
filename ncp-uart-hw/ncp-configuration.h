@@ -204,112 +204,112 @@
 // Generated API headers
 
 // API adc-cortexm3 from ADC plugin
-#define EMBER_AF_API_ADC_CORTEXM3 "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/adc/adc-cortexm3.h"
+#define EMBER_AF_API_ADC_CORTEXM3 "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/adc/adc-cortexm3.h"
 
 // API adc from ADC plugin
-#define EMBER_AF_API_ADC "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/adc/adc.h"
+#define EMBER_AF_API_ADC "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/adc/adc.h"
 
 // API antenna from Antenna Stub plugin
-#define EMBER_AF_API_ANTENNA "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/antenna/antenna.h"
+#define EMBER_AF_API_ANTENNA "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/antenna/antenna.h"
 
 // API binding from Binding Table Library plugin
-#define EMBER_AF_API_BINDING "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/binding-table.h"
+#define EMBER_AF_API_BINDING "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/binding-table.h"
 
 // API button from Button Stub plugin
-#define EMBER_AF_API_BUTTON "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/button.h"
+#define EMBER_AF_API_BUTTON "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/button.h"
 
 // API buzzer from Buzzer Stub plugin
-#define EMBER_AF_API_BUZZER "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/buzzer/buzzer.h"
+#define EMBER_AF_API_BUZZER "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/buzzer/buzzer.h"
 
 // API cbke from CBKE Core Stub Library plugin
-#define EMBER_AF_API_CBKE "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/cbke-crypto-engine.h"
+#define EMBER_AF_API_CBKE "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/cbke-crypto-engine.h"
 
 // API coexistence from Radio Coexistence Stub plugin
-#define EMBER_AF_API_COEXISTENCE "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154/coexistence-802154.h"
+#define EMBER_AF_API_COEXISTENCE "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154/coexistence-802154.h"
 
 // API concentrator-support from Concentrator Support Library plugin
-#define EMBER_AF_API_CONCENTRATOR_SUPPORT "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/em260/concentrator.h"
+#define EMBER_AF_API_CONCENTRATOR_SUPPORT "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/em260/concentrator.h"
 
 // API debug-basic from Debug Basic Library plugin
-#define EMBER_AF_API_DEBUG_BASIC "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember-debug.h"
+#define EMBER_AF_API_DEBUG_BASIC "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember-debug.h"
 
 // API diagnostic-cortexm3 from Diagnostic plugin
-#define EMBER_AF_API_DIAGNOSTIC_CORTEXM3 "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/cortexm3/diagnostic.h"
+#define EMBER_AF_API_DIAGNOSTIC_CORTEXM3 "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/cortexm3/diagnostic.h"
 
 // API diagnostic from Diagnostic plugin
-#define EMBER_AF_API_DIAGNOSTIC "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/diagnostic.h"
+#define EMBER_AF_API_DIAGNOSTIC "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/diagnostic.h"
 
 // API ezsp-security from Zigbee PRO Core Security Library EZSP Command Handlers plugin
-#define EMBER_AF_API_EZSP_SECURITY "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/em260/command-handlers-security.h"
+#define EMBER_AF_API_EZSP_SECURITY "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/em260/command-handlers-security.h"
 
 // API crc from HAL Library plugin
-#define EMBER_AF_API_CRC "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/crc.h"
+#define EMBER_AF_API_CRC "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/crc.h"
 
 // API endian from HAL Library plugin
-#define EMBER_AF_API_ENDIAN "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/endian.h"
+#define EMBER_AF_API_ENDIAN "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/endian.h"
 
 // API hal from HAL Library plugin
-#define EMBER_AF_API_HAL "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/hal.h"
+#define EMBER_AF_API_HAL "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/hal.h"
 
 // API random from HAL Library plugin
-#define EMBER_AF_API_RANDOM "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/random.h"
+#define EMBER_AF_API_RANDOM "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/random.h"
 
 // API system-timer from HAL Library plugin
-#define EMBER_AF_API_SYSTEM_TIMER "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/system-timer.h"
+#define EMBER_AF_API_SYSTEM_TIMER "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/system-timer.h"
 
 // API token-cortexm3 from HAL Library plugin
-#define EMBER_AF_API_TOKEN_CORTEXM3 "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/cortexm3/token.h"
+#define EMBER_AF_API_TOKEN_CORTEXM3 "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/cortexm3/token.h"
 
 // API token from HAL Library plugin
-#define EMBER_AF_API_TOKEN "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/token.h"
+#define EMBER_AF_API_TOKEN "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/token.h"
 
 // API led from LED plugin
-#define EMBER_AF_API_LED "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/led.h"
+#define EMBER_AF_API_LED "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/micro/led.h"
 
 // API mfglib from Manufacturing Library plugin
-#define EMBER_AF_API_MFGLIB "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/mfglib.h"
+#define EMBER_AF_API_MFGLIB "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/mfglib.h"
 
 // API multi-network from Multi-Network Stub Library plugin
-#define EMBER_AF_API_MULTI_NETWORK "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/multi-network.h"
+#define EMBER_AF_API_MULTI_NETWORK "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/multi-network.h"
 
 // API ezsp from NCP - UART plugin
-#define EMBER_AF_API_EZSP "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/em260/command-context.h"
+#define EMBER_AF_API_EZSP "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/em260/command-context.h"
 
 // API ezsp-protocol from NCP - UART plugin
-#define EMBER_AF_API_EZSP_PROTOCOL "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/util/ezsp/ezsp-protocol.h"
+#define EMBER_AF_API_EZSP_PROTOCOL "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/util/ezsp/ezsp-protocol.h"
 
 // API rail-library from RAIL Library plugin
-#define EMBER_AF_API_RAIL_LIBRARY "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/common/rail.h"
+#define EMBER_AF_API_RAIL_LIBRARY "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/common/rail.h"
 
 // API secure-ezsp from Secure EZSP Stub plugin
-#define EMBER_AF_API_SECURE_EZSP "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/util/ezsp/secure-ezsp-protocol.h"
+#define EMBER_AF_API_SECURE_EZSP "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/util/ezsp/secure-ezsp-protocol.h"
 
 // API serial from Serial plugin
-#define EMBER_AF_API_SERIAL "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/serial/serial.h"
+#define EMBER_AF_API_SERIAL "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/serial/serial.h"
 
 // API sim-eeprom from Simulated EEPROM version 2 Library plugin
-#define EMBER_AF_API_SIM_EEPROM "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/sim-eeprom/sim-eeprom.h"
+#define EMBER_AF_API_SIM_EEPROM "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/sim-eeprom/sim-eeprom.h"
 
 // API zigbee-pro from Zigbee PRO Stack Library plugin
-#define EMBER_AF_API_ZIGBEE_PRO "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember.h"
+#define EMBER_AF_API_ZIGBEE_PRO "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember.h"
 
 // API event from Zigbee PRO Stack Library plugin
-#define EMBER_AF_API_EVENT "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/event.h"
+#define EMBER_AF_API_EVENT "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/event.h"
 
 // API buffer from Zigbee PRO Stack Library plugin
-#define EMBER_AF_API_BUFFER "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/packet-buffer.h"
+#define EMBER_AF_API_BUFFER "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/packet-buffer.h"
 
 // API ember-types from Zigbee PRO Stack Library plugin
-#define EMBER_AF_API_EMBER_TYPES "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember-types.h"
+#define EMBER_AF_API_EMBER_TYPES "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember-types.h"
 
 // API byte-utilities from Zigbee PRO Stack Library plugin
-#define EMBER_AF_API_BYTE_UTILITIES "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/byte-utilities.h"
+#define EMBER_AF_API_BYTE_UTILITIES "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/byte-utilities.h"
 
 // API stack from Zigbee PRO Stack Library plugin
-#define EMBER_AF_API_STACK "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember.h"
+#define EMBER_AF_API_STACK "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/ember.h"
 
 // API zll from ZigBee Light Link Library plugin
-#define EMBER_AF_API_ZLL "../../../app/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/zll-api.h"
+#define EMBER_AF_API_ZLL "../../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/stack/include/zll-api.h"
 
 
 // Custom macros
