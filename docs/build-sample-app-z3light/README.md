@@ -4,9 +4,9 @@
 
 * Windows 10
   * Simplicity Studio 4
-  * Gecko Platform 2.6.0
-  * EmberZNet SDK 6.6.0.0
-  * GNU ARM Toolchain v7.2.2017.q4
+    * Gecko Platform 2.6.0
+    * EmberZNet SDK 6.6.0.0
+    * GNU ARM Toolchain v7.2.2017.q4
 * EFR32™ Mighty Gecko Wireless Starter Kit (SLWSTK6000B)
   * BRD4161A Rev A02 (EFR32MG12P432F1024GL125)
   * BRD4001A Rev A01
