@@ -39,10 +39,10 @@ Simplicity Studio 4 内置了一个 Network Analyzer 工具，该工具用于网
     ![connect.jpg](./connect.jpg)
 2. 再次右键设备，选择 `Start capture`。<br>
     ![start-capture.jpg](./start-capture.jpg)
-3. 页面将跳转到 `Network Analyzer` 中，并且能观察到已捕抓到一些包，但是由于没有密钥，所以无法解析出包的内容。<br>
+3. 页面将跳转到 `Network Analyzer` 中，并且能观察到已捕抓到一些消息，但是由于没有密钥，所以无法解析出消息的内容。<br>
     ![analyzer.jpg](./analyzer.jpg)
 4. 将设备加入到网络中。
-    > 注：可以参考 [初试 CLI](./first-try-cli/README.md)。
+    > 注：可以参考 [初试 CLI](../first-try-cli/README.md)。
 5. 在设备上使用 CLI 命令 `keys print`，将网络密钥打印出来，并复制其中的网络密钥。<br>
     ![key.jpg](./key.jpg)
 6. 在菜单栏中，选择 `Windows > Preferences`。<br>
